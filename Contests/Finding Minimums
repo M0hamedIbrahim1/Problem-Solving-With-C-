@@ -1,0 +1,31 @@
+// link : https://codeforces.com/group/MWSDmqGsZm/contest/326907/problem/C
+//Author : @Mohamed Ibrahim
+
+#include<bits/stdc++.h>
+using namespace std;
+ int main()
+{
+ long long size,part,min=1000000005,x;
+ cin>>size>>part;
+ x = part;
+ long long arr[size];
+ 
+	for(int i = 0;i<size;i++){
+	 	cin>>arr[i];
+	}
+	for(int i = 0;i<size;i++){
+		if(i<part){
+			if(arr[i]<min){
+				min = arr[i];
+			}
+		}if(i == part-1){
+			cout<<min<<" ";
+			part +=x;
+			min = 1000000005;
+		}
+		if(part>size){
+			part = size;
+		}
+	}
+}
+
