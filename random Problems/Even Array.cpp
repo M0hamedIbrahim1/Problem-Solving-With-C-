@@ -8,9 +8,10 @@ int main (){
 	cin>>q;
 	while (q--)
 	{	
-		even=odd=0;
+	int even=0,odd=0;
         int n;
         cin >> n;
+        int arr[n];
         for(int i = 0 ; i<n ; ++i){
         	cin >> arr[i];
 		}   
