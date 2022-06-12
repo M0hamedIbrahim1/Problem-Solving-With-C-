@@ -1,3 +1,4 @@
+//link:   https://codeforces.com/group/MWSDmqGsZm/contest/223206/problem/C
 //author: Mohamed Ibrahim
 	
 #include <bits/stdc++.h>
