@@ -24,15 +24,14 @@ int main(){
 	    {
 	        if(n==1) cout<<"YES"<<endl;
 	        else cout<<"NO"<<endl;
-	    }
-    else
+	    }else
 		{
 	    	if(res >= n){
 				cout<<"YES"<<endl;
 			}
-        else{
-          cout<<"NO"<<endl;
-        }
+			else{
+				cout<<"NO"<<endl;
+			}
 		}
 
 	}
