@@ -1,6 +1,12 @@
 //link:   https://codeforces.com/problemset/problem/1535/A
 //author: Mohamed Ibrahim
 	
+IN PY : 
+for _ in range(int(input())):
+    a,b,c,d= map(int, input().split())
+    print('YES' if max(a, b) > min(c, d) and min(a, b) < max(c, d)  else 'NO')
+
+IN C++:
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
