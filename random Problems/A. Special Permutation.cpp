@@ -9,16 +9,12 @@ int main()
 	int t;
 	cin>>t;
 	while(t--){
-		cin>>n;
-		if(n != 1){
+			cin>>n;
 			for(int i = 2 ; i <= n ; i++){
 				cout<<i<<" ";
 			}
 			cout<<"1";	
-		}else{
-			cout<<"1";
-		}
-		cout<<endl;
-	}	
-}
- 
+			cout<<endl;
+
+	}
+}	
