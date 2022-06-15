@@ -18,3 +18,20 @@ int main(){
 	}
 	cout<<arr[n-1][n-1];
 }
+
+
+//////////////////
+
+//link:   https://codeforces.com/problemset/problem/509/A
+//author: Mohamed Ibrahim
+	
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	int arr[12]={0,1,2,6,20,70,252,924,3432,12870,48620},n;
+	cin>>n;
+	cout<<arr[n];
+}
+
+
+
