@@ -23,6 +23,14 @@ int main(){
 		cout<<endl;
 		
 	}
-
-
 }
+
+// ano sol : 
+             if ((n-2)%x==0)
+            {
+                  b = ((n - 2) / x) + 1;
+             }
+             else 
+             {
+                   b=((n - 2) / x) + 2;
+            }
