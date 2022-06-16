@@ -43,3 +43,14 @@ int main()
 		cout<<endl;
 	}
 }
+
+
+
+// COUNT OF A + C must be = B , we can solve it by python easy :
+
+for dfs in range(int(input())):
+    s=input()
+    print('YES'if s.count('A')+s.count('C')==s.count('B')else 'NO')
+
+
+
