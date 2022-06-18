@@ -1,6 +1,7 @@
 //link   : https://codeforces.com/problemset/problem/1325/B
 //author : @Mohamed Ibrahim
 
+//C++ CODE :
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -26,3 +27,9 @@ int main() {
 
 	return 0;
 }
+
+# PYTHON : 
+for i in range(int(input())):
+    input()
+    print(len(set(input().split())))
+    
