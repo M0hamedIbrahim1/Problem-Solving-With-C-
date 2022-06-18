@@ -25,3 +25,13 @@ int main(){
 	}
 
 }
+
+Py : 
+for i in range(int(input())):
+	n=int(input())
+	l=list(map(int,input().split()))
+	a=l.index(1)+1
+	b=l.index(n)+1
+	a,b=min(a,b),max(a,b)
+	print(min(b,n-a+1,a+n-b+1))
+
