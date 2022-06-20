@@ -1,37 +1,28 @@
-//link:   https://codeforces.com/problemset/problem/509/A
+//link:   https://codeforces.com/problemset/problem/702/A
 //author: Mohamed Ibrahim
 	
 #include<bits/stdc++.h>
 using namespace std;
-
 int main(){
-	int arr[10][10],n;
-	cin>>n;
-	
-	for(int i = 0 ; i < n ; i++){
-		arr[i][0] = arr[0][i] = 1;
+	int size,cnt = 1,m = 0;
+	cin>>size;
+	long long arr[size];
+	for(int i = 0 ; i < size ; i++)
+	{	
+		cin>>arr[i];
 	}
-	for(int i = 1 ; i < n ; i++){
-		for(int j = 1 ; j < n ; j++){
-			arr[i][j] = arr[i-1][j]+arr[i][j-1];
+	for(int i = 1 ; i < size ; i++)
+	{
+		if(arr[i]>arr[i-1])
+		{
+			cnt++;	
 		}
+		else
+		{
+			m = max(m,cnt);
+			cnt = 1;
+		}		
 	}
-	cout<<arr[n-1][n-1];
+	m = max(m,cnt);
+	cout<<m;
 }
-
-
-//////////////////
-
-//link:   https://codeforces.com/problemset/problem/509/A
-//author: Mohamed Ibrahim
-	
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-	int arr[12]={0,1,2,6,20,70,252,924,3432,12870,48620},n;
-	cin>>n;
-	cout<<arr[n];
-}
-
-
-
