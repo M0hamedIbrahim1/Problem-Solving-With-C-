@@ -57,3 +57,17 @@ int main()
 	}
 		
 }
+
+// best soluation : 
+// 		for(i=1;i<=n;i+=2){
+// 			if(a[i]!=a[1]){
+// 				cout<<endl;
+// 			}
+// 		}
+// 		for(i=2;i<=n;i+=2){
+// 			if(a[i]!=a[2]){
+// 				cout<<endl;
+// 			}
+// 		}
+
+
