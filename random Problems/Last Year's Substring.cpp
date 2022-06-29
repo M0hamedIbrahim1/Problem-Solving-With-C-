@@ -26,3 +26,4 @@ int main()
 		cout<<endl;
 	}
 }
+//    if (s.substr(n - 4) == "2020" || s.substr(0, 1) + s.substr(n - 3) == "2020" || s.substr(0, 2) + s.substr(n - 2) == "2020" || s.substr(0, 3) + s.substr(n - 1) == "2020" || s.substr(0, 4) == "2020")
