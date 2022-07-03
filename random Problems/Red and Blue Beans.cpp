@@ -16,3 +16,9 @@ int main()
 	
 	}
 }
+
+
+// 	int g = max(r,b)/min(r,b);
+// 	if(max(r,b) % min(r,b) > 0) g++;
+// 	if(g-1>d)cout<<"NO";
+// 	else cout<<"YES";
